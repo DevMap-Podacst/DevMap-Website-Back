@@ -602,6 +602,9 @@
           "slug": {
             "type": "uid"
           },
+          "EpisodeNumber": {
+            "type": "integer"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -622,6 +625,9 @@
           },
           "slug": {
             "type": "uid"
+          },
+          "EpisodeNumber": {
+            "type": "integer"
           },
           "published_at": {
             "type": "string",
