@@ -37,6 +37,20 @@
     },
     "EpisodeNumber": {
       "type": "integer"
+    },
+    "FileUrl": {
+      "type": "string"
+    },
+    "EpisodeAudioFile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
