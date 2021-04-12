@@ -24,9 +24,7 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false
@@ -34,12 +32,6 @@
     "slug": {
       "type": "uid",
       "targetField": "Title"
-    },
-    "EpisodeLength": {
-      "type": "integer"
-    },
-    "FileUrl": {
-      "type": "string"
     },
     "EpisodeAudioFile": {
       "model": "file",
@@ -51,6 +43,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "EpisodeLength": {
+      "type": "string"
+    },
+    "EpisodeId": {
+      "type": "integer"
     }
   }
 }

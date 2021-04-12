@@ -602,12 +602,6 @@
           "slug": {
             "type": "uid"
           },
-          "EpisodeLength": {
-            "type": "integer"
-          },
-          "FileUrl": {
-            "type": "string"
-          },
           "EpisodeAudioFile": {
             "required": [
               "id",
@@ -675,6 +669,12 @@
               }
             }
           },
+          "EpisodeLength": {
+            "type": "string"
+          },
+          "EpisodeId": {
+            "type": "integer"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -697,10 +697,10 @@
             "type": "uid"
           },
           "EpisodeLength": {
-            "type": "integer"
-          },
-          "FileUrl": {
             "type": "string"
+          },
+          "EpisodeId": {
+            "type": "integer"
           },
           "published_at": {
             "type": "string",

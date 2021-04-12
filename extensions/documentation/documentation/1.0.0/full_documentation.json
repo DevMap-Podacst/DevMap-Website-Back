@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/11/2021 9:43:10 PM"
+    "x-generation-date": "04/11/2021 11:21:32 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2873,12 +2873,6 @@
           "slug": {
             "type": "uid"
           },
-          "EpisodeLength": {
-            "type": "integer"
-          },
-          "FileUrl": {
-            "type": "string"
-          },
           "EpisodeAudioFile": {
             "required": [
               "id",
@@ -2946,6 +2940,12 @@
               }
             }
           },
+          "EpisodeLength": {
+            "type": "string"
+          },
+          "EpisodeId": {
+            "type": "integer"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -2968,10 +2968,10 @@
             "type": "uid"
           },
           "EpisodeLength": {
-            "type": "integer"
-          },
-          "FileUrl": {
             "type": "string"
+          },
+          "EpisodeId": {
+            "type": "integer"
           },
           "published_at": {
             "type": "string",
