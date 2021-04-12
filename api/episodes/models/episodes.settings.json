@@ -35,7 +35,7 @@
       "type": "uid",
       "targetField": "Title"
     },
-    "EpisodeNumber": {
+    "EpisodeLength": {
       "type": "integer"
     },
     "FileUrl": {

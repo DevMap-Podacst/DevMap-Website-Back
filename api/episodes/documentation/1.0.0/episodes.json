@@ -602,7 +602,7 @@
           "slug": {
             "type": "uid"
           },
-          "EpisodeNumber": {
+          "EpisodeLength": {
             "type": "integer"
           },
           "FileUrl": {
@@ -696,7 +696,7 @@
           "slug": {
             "type": "uid"
           },
-          "EpisodeNumber": {
+          "EpisodeLength": {
             "type": "integer"
           },
           "FileUrl": {
