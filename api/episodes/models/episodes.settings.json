@@ -49,6 +49,9 @@
     },
     "EpisodeId": {
       "type": "integer"
+    },
+    "EpisodeAudioFileUrl": {
+      "type": "string"
     }
   }
 }

@@ -675,6 +675,9 @@
           "EpisodeId": {
             "type": "integer"
           },
+          "EpisodeAudioFileUrl": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -701,6 +704,9 @@
           },
           "EpisodeId": {
             "type": "integer"
+          },
+          "EpisodeAudioFileUrl": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
